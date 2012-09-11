@@ -2,7 +2,7 @@ import os
 import psycopg2
 from random import choice
 
-conn = psycopg2.connect("host=178.239.60.241 dbname=photoviewer user=postgres password=** port=5432")
+conn = psycopg2.connect("host=domain dbname=databasename user=username password=** port=5432")
 cur = conn.cursor()
 path = "C:/Users/Wouter/Desktop/wallpapers/"
 
